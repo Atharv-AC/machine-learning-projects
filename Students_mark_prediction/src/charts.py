@@ -3,12 +3,19 @@ import os
 
 
 base_path = os.path.dirname(__file__)
+
+reports_dir = os.path.join(base_path, "..", "reports")
+
+# Create folder if it doesn't exist
+os.makedirs(reports_dir, exist_ok=True)
+
+
 # paths where the charts are saved
-corelation_M_R = os.path.join(base_path, "..", "reports", "MathRead_corelation.svg")
-corelation_W_R = os.path.join(base_path, "..", "reports", "writeRead_corelation.svg")
-ActualPred_save = os.path.join(base_path, "..", "reports", "ActualPred_corelation.svg")
-Residual_save = os.path.join(base_path, "..", "reports", "ResidualChart.svg")
-dist_save = os.path.join(base_path, "..", "reports", "HistrogramChart.svg")
+corelation_M_R = os.path.join(reports_dir, "MathRead_corelation.svg")
+corelation_W_R = os.path.join(reports_dir, "writeRead_corelation.svg")
+ActualPred_save = os.path.join(reports_dir, "ActualPred_corelation.svg")
+Residual_save = os.path.join(reports_dir, "ResidualChart.svg")
+dist_save = os.path.join(reports_dir,"HistrogramChart.svg")
 
 
 
