@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# generated files
+reports/
+output/
+models/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+*.db
