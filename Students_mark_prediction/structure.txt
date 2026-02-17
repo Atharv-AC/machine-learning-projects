@@ -1,0 +1,22 @@
+.
+├── Students_mark_prediction
+│   ├── Data
+│   │   └── StudentsPerformance_cleaned.csv
+│   ├── models
+│   │   └── reading_model.pkl
+│   ├── reports
+│   │   ├── ActualPred_corelation.svg
+│   │   ├── HistrogramChart.svg
+│   │   ├── MathRead_corelation.svg
+│   │   ├── ResidualChart.svg
+│   │   └── writeRead_corelation.svg
+│   └── src
+│       ├── charts.py
+│       ├── evaluate.py
+│       ├── loader.py
+│       ├── main.py
+│       ├── preprocess.py
+│       └── train.py
+└── structure.txt
+
+6 directories, 14 files
