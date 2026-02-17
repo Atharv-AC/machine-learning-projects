@@ -1,0 +1,24 @@
+.
+├── Data
+│   └── StudentsPerformance_cleaned.csv
+├── models
+│   └── reading_model.pkl
+├── reports
+│   ├── Math_distribution.svg
+│   ├── Pass_Fail_chart.svg
+│   ├── Probability.svg
+│   ├── ROC_curve.svg
+│   ├── Scatter_chart.svg
+│   ├── confusion_matrix.png
+│   └── confusion_matrix.svg
+├── requirements.txt
+├── src
+│   ├── charts.py
+│   ├── evaluate.py
+│   ├── loader.py
+│   ├── main.py
+│   ├── preprocess.py
+│   └── train.py
+└── structure.txt
+
+5 directories, 17 files
