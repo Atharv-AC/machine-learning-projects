@@ -218,7 +218,7 @@ After running the project, your charts will appear here:
 
 **Atharv Chandurkar**
 
-GitHub: [https://github.com/Atharv-AC](https://github.com/your-username)
+GitHub: [https://github.com/Atharv-AC]
 
 ## 🤝 Contributing
 
