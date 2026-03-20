@@ -5,6 +5,11 @@ This repository demonstrates the complete ML workflow—from **data preprocessin
 
 ---
 
+**🔗 Live Demo:**   
+https://predict-ui-dashboards.streamlit.app/
+
+---
+
 ## 📌 About This Repository
 
 This repository serves as a **learning lab and portfolio** where I build and organize machine learning projects to strengthen practical skills in:
